@@ -8,6 +8,7 @@ public class calculatingTheLeapYear {
         Scanner input = new Scanner(System.in);
         int year = input.nextInt();
 
+
         if (year % 100 == 0) {
             if (year % 400 == 0) {
                 System.out.println("" + year + " : Artık Bir Yıldır ! ");
