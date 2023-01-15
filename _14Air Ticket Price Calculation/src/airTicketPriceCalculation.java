@@ -31,6 +31,7 @@ public class airTicketPriceCalculation {
             System.out.println("Bilet Fiyatınız : " + ticketPrice + " TL");
         } else {
             System.out.println("Geçersiz ! Lütfen  Geçerli Bilgiler Girdiğinizden Emin Olun : ");
+
         }
     }
 }
