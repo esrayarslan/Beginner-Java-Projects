@@ -31,6 +31,5 @@ public class sortingNumbersFromLargetoSmall {
         } else {
             System.out.println("c < b < a ");
         }
-
     }
 }
