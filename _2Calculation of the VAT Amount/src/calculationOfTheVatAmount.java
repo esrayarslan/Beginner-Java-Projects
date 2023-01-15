@@ -15,5 +15,6 @@ public class calculationOfTheVatAmount {
         System.out.println("KDV Oranı :" + vatRate);
         System.out.println("KDV Tutarı :" + vatAmount);
         System.out.println("KDV'li Tutarı :" + vatAmounts);
+
     }
 }
