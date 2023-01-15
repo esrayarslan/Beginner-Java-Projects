@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Beginner Java Projects.iml" filepath="$PROJECT_DIR$/.idea/Beginner Java Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/_1Grade Point Average Calculation/_1Grade Point Average Calculation.iml" filepath="$PROJECT_DIR$/_1Grade Point Average Calculation/_1Grade Point Average Calculation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/_2Calculation of the VAT Amount/_2Calculation of the VAT Amount.iml" filepath="$PROJECT_DIR$/_2Calculation of the VAT Amount/_2Calculation of the VAT Amount.iml" />
     </modules>
   </component>
 </project>
