@@ -159,6 +159,5 @@ public class theProgramThatFindsTheHoroscope {
         } else {
             System.out.println("Hatalı Giriş Yaptınız.");
         }
-
     }
 }
