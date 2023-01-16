@@ -16,8 +16,14 @@ public class findingTheForcesOf4And5 {
         System.out.print("Sınır Sayısını Giriniz : ");
         n = input.nextInt();
 
-        for (int i = 1; i <= n; i*=4){
+        for (int i = 1; i <= n; i *= 4) {
+            System.out.println(i);
+        }
 
+        System.out.println("----------------------");
+
+        for (int i = 1; i <= n; i *= 5) {
+            System.out.println(i);
         }
     }
 }
