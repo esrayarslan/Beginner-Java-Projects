@@ -6,18 +6,26 @@ public class findingArmstrongNumbers {
         Scanner input = new Scanner(System.in);
         System.out.print("Sayı Giriniz : ");
         int number = input.nextInt();
-        int numberOfDigits = 0, tempNumber = number;
+        int numberOfDigits = 0;
+        int tempNumber = number;
+        int digitValue;
+        int totalNumber = 0;
 
         while (tempNumber != 0) {
             tempNumber /= 10;
             numberOfDigits++;
         }
+        System.out.println("Basamak Sayısı: " + numberOfDigits);
         tempNumber = number;
 
         while (tempNumber != 0) {
-            System.out.print(tempNumber);
+            digitValue = tempNumber % 10;
+            totalNumber = digitValue + totalNumber;
             tempNumber /= 10;
         }
+        System.out.println(totalNumber);
+
+
 
         /* Basamak Sayısı bulma
 
